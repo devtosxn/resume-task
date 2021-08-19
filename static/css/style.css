@@ -241,6 +241,35 @@ section:last-child {
   margin-bottom: 3px;
 }
 
+.footer {
+  background: #cf8a05;
+  padding: 20px;
+  margin-top: 30px;
+  width: 100%;
+}
+
+.footer ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+.footer ul li {
+  padding: 5px;
+}
+.footer ul li a {
+  display: inline-block;
+  color: #fff6a4;
+}
+
+.wrapper {
+  background: #fff;
+  padding: 50px;
+  width: 65%;
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.12);
+  margin-top: 50px;
+  position: relative;
+}
+
 @media all and (min-width: 602px) and (max-width: 800px) {
   #headshot {
     display: none;
