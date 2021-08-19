@@ -208,7 +208,13 @@ section:last-child {
 }
 .footer ul li a {
   display: inline-block;
-  color: #fff6a4;
+  /* color: #fff6a4; */
+  color: #fff;
+}
+
+#hng {
+  width: 30px;
+  height: 30px;
 }
 
 .wrapper {
