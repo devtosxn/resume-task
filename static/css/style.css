@@ -1,9 +1,6 @@
 html,
 body,
 div,
-span,
-object,
-iframe,
 h1,
 h2,
 h3,
@@ -11,62 +8,15 @@ h4,
 h5,
 h6,
 p,
-blockquote,
-pre,
-abbr,
-address,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-samp,
-small,
-strong,
-sub,
-sup,
-var,
-b,
-i,
-dl,
-dt,
-dd,
-ol,
 ul,
 li,
 fieldset,
 form,
 label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
 article,
-aside,
-canvas,
-details,
-figcaption,
-figure,
 footer,
 header,
-hgroup,
-menu,
-nav,
-section,
-summary,
-time,
-mark,
-audio,
-video {
+section {
   border: 0;
   font: inherit;
   font-size: 100%;
@@ -91,7 +41,7 @@ section {
 
 html,
 body {
-  background: #181818;
+  background: #f3f3f3;
   font-family: "Lato", helvetica, arial, sans-serif;
   font-size: 16px;
   color: #222;
@@ -111,7 +61,8 @@ p {
 #cv {
   width: 90%;
   max-width: 800px;
-  background: #f3f3f3;
+  /* background: #f3f3f3; */
+  background: #ededed;
   margin: 30px auto;
 }
 
@@ -261,14 +212,14 @@ section:last-child {
   color: #fff6a4;
 }
 
-.wrapper {
+/* .wrapper {
   background: #fff;
   padding: 50px;
   width: 65%;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.12);
   margin-top: 50px;
   position: relative;
-}
+} */
 
 @media all and (min-width: 602px) and (max-width: 800px) {
   #headshot {
@@ -349,7 +300,7 @@ section:last-child {
   }
 }
 
-@-webkit-keyframes reset {
+/* @-webkit-keyframes reset {
   0% {
     opacity: 0;
   }
@@ -368,8 +319,8 @@ section:last-child {
   100% {
     opacity: 1;
   }
-}
-
+} */
+/* 
 @-moz-keyframes reset {
   0% {
     opacity: 0;
@@ -377,9 +328,9 @@ section:last-child {
   100% {
     opacity: 0;
   }
-}
+} */
 
-@-moz-keyframes fade-in {
+/* @-moz-keyframes fade-in {
   0% {
     opacity: 0;
   }
@@ -389,9 +340,9 @@ section:last-child {
   100% {
     opacity: 1;
   }
-}
+} */
 
-@keyframes reset {
+/* @keyframes reset {
   0% {
     opacity: 0;
   }
@@ -410,62 +361,4 @@ section:last-child {
   100% {
     opacity: 1;
   }
-}
-
-/* .instaFade {
-  -webkit-animation-name: reset, fade-in;
-  -webkit-animation-duration: 1.5s;
-  -webkit-animation-timing-function: ease-in;
-
-  -moz-animation-name: reset, fade-in;
-  -moz-animation-duration: 1.5s;
-  -moz-animation-timing-function: ease-in;
-
-  animation-name: reset, fade-in;
-  animation-duration: 1.5s;
-  animation-timing-function: ease-in;
-} */
-
-/* .quickFade {
-  -webkit-animation-name: reset, fade-in;
-  -webkit-animation-duration: 2.5s; */
-/* -webkit-animation-timing-function: ease-in;
-
-  -moz-animation-name: reset, fade-in;
-  -moz-animation-duration: 2.5s;
-  -moz-animation-timing-function: ease-in;
-
-  animation-name: reset, fade-in;
-  animation-duration: 2.5s;
-  animation-timing-function: ease-in;
-}
-
-.delayOne {
-  -webkit-animation-delay: 0, 0.5s;
-  -moz-animation-delay: 0, 0.5s;
-  animation-delay: 0, 0.5s;
-}
-
-.delayTwo {
-  -webkit-animation-delay: 0, 1s;
-  -moz-animation-delay: 0, 1s;
-  animation-delay: 0, 1s;
-}
-
-.delayThree {
-  -webkit-animation-delay: 0, 1.5s;
-  -moz-animation-delay: 0, 1.5s;
-  animation-delay: 0, 1.5s;
-}
-
-.delayFour {
-  -webkit-animation-delay: 0, 2s;
-  -moz-animation-delay: 0, 2s;
-  animation-delay: 0, 2s;
-}
-
-.delayFive {
-  -webkit-animation-delay: 0, 2.5s;
-  -moz-animation-delay: 0, 2.5s;
-  animation-delay: 0, 2.5s;
 } */
