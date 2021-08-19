@@ -61,7 +61,6 @@ p {
 #cv {
   width: 90%;
   max-width: 800px;
-  /* background: #f3f3f3; */
   background: #ededed;
   margin: 30px auto;
 }
@@ -212,15 +211,47 @@ section:last-child {
   color: #fff6a4;
 }
 
-/* .wrapper {
+.wrapper {
   background: #fff;
   padding: 50px;
-  width: 65%;
+  width: 50%;
   box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.12);
-  margin-top: 50px;
   position: relative;
-} */
+  text-align: center;
+  margin: 15% auto;
+}
+.wrapper h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.wrapper p {
+  font-size: 1em;
+  line-height: 1.4em;
+  margin-bottom: 20px;
+  color: #444;
+}
+.wrapper a {
+  background: #cf8a05;
+  padding: 10px 20px;
+  color: #fff;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  -ms-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+.wrapper a:hover {
+  background: #444;
+  color: #fff;
+}
 
+@media screen and (max-width: 750px) {
+  .wrapper {
+    padding: 30px;
+    width: 90%;
+  }
+}
 @media all and (min-width: 602px) and (max-width: 800px) {
   #headshot {
     display: none;
@@ -299,66 +330,3 @@ section:last-child {
     width: 100%;
   }
 }
-
-/* @-webkit-keyframes reset {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-/* 
-@-moz-keyframes reset {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-} */
-
-/* @-moz-keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
-
-/* @keyframes reset {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes fade-in {
-  0% {
-    opacity: 0;
-  }
-  40% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
-} */
