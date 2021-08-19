@@ -13,6 +13,7 @@
       rel="stylesheet"
       href="{% static 'css/style.css' %}"
     />
+    <link type="text/css" rel="stylesheet" href="{% static 'css/form.css' %}" />
     <link
       href="http://fonts.googleapis.com/css?family=Rokkitt:400,700|Lato:400,300"
       rel="stylesheet"
@@ -155,6 +156,52 @@
 
           <div class="sectionContent">
             <article>
+              <div class="container">
+                <form method="POST" action="{% url 'contact' %}" id="contact">
+                {% csrf_token %}
+                  <fieldset>
+                    <label for="name">Name</label><br /></br/>
+                    <input
+                      id="name"
+                      placeholder="Your name"
+                      type="text"
+                      tabindex="1"
+                      required
+                      autofocus
+                    />
+                  </fieldset>
+                  <fieldset>
+                    <label for="email">Email Address</label><br /></br/>
+                    <input
+                      id="email"
+                      placeholder="Your Email Address"
+                      type="email"
+                      tabindex="2"
+                      required
+                    />
+                  </fieldset>
+                  <fieldset>
+                    <label for="message">Message</label><br /></br/>
+                    <textarea
+                      id="message"
+                      placeholder="Type your message here...."
+                      tabindex="5"
+                      required
+                    ></textarea>
+                  </fieldset>
+                  <fieldset>
+                    <button
+                      name="submit"
+                      type="submit"
+                      id="contact-submit"
+                      data-submit="...Sending"
+                    >
+                      Submit
+                    </button>
+                  </fieldset>
+                </form>
+              </div>
+              {% comment %}
               <form method="POST" action="{% url 'contact' %}">
                 {% csrf_token %}
                 <div class="form-group">
@@ -201,6 +248,7 @@
                   </div>
                 </div>
               </form>
+              {% endcomment %}
             </article>
           </div>
           <div class="clear"></div>
